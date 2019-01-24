@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html>
+    <head>
+        <title>Hi this is first template</title>
+        <link rel="stylesheet" href="{% static "css/myCSS.css" %}">
+    </head>
+    <body>
+        <h1>hello this index.html!</h1>
+        <img src="{% static "images/sm.jpeg" %}" alt="something is not right">
+        {{ insert_me }}
+    </body>
+</html>
